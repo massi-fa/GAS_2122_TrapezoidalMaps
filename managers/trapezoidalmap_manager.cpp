@@ -331,6 +331,11 @@ void TrapezoidalMapManager::loadSegmentsTrapezoidalMapAndMeasureTime(const std::
  */
 void TrapezoidalMapManager::addSegmentToTrapezoidalMapAndMeasureTime(const cg3::Segment2d& segment) //Do not write code here
 {
+    //std::cout << segment.p1().x() << std::endl;
+    //std::cout << segment.p1().y() << std::endl;
+    //std::cout << segment.p2().x() << std::endl;
+    //std::cout << segment.p2().y() << std::endl;
+
     //Output message
     std::cout << "Adding a segment to the trapezoidal map using its incremental step..." << std::endl;
 
